@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", serif;
+    outline: none;
+}
+
+body {
+    background-color:hsla(261, 96%, 61%, 0.871);
+}
+
+.img-logo{
+    width: 120px;
+    border-radius: 30px;
+    margin: 10px auto;
+    display: block;
+}
+
+main{
+    margin: 0 auto;
+    background-color: aliceblue;
+    width: 380px;
+    border-radius: 20px;
+    padding: 40px 20px 20px;
+}
+
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+select{
+    background-color: white;
+    border: double 3px hsla(261, 96%, 61%, 0.871);
+    border-radius: 5px;
+    height: 35px;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    appearance: none;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.input-currency {
+    background-color: white;
+    border: double 3px hsla(261, 96%, 61%, 0.871);
+    border-radius: 5px;
+    height: 42px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+.convert-button{
+    background: #772FD3;
+    color: white;
+    width: 100%;
+    height: 42px;
+    font-size: 18px;
+    font-weight: bold;
+    border: double 3px hsla(255, 20%, 96%, 0.871);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.convert-button:hover{
+    opacity: .8;
+}
+
+.convert-button:active{
+    opacity: .6;
+}
+
+section{
+    border: double 3px hsla(261, 96%, 61%, 0.871);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.currency-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px
+}
+
+.arrow{
+    margin: 10px 0;
+}
+
+.currency{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 450;
+}
+
+.currency-value{
+    color: #2c2c2c;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+

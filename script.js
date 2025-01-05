@@ -46,12 +46,11 @@ function convertValues() {
 
 function changeCurrency() {
     const currencyName = document.getElementById("currency-name")
-    const currencyImage = document.getElementById("currency-img")
+
 
 
     if (currencySelect.value == "dolar"){
         currencyName.innerHTML = "Dolar"
-    
     }
 
     if (currencySelect.value == "euro"){
@@ -61,6 +60,9 @@ function changeCurrency() {
     if (currencySelect.value == "libra"){
         currencyName.innerHTML = "Libra"
     }
+
+
+
 }
 
 

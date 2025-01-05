@@ -45,26 +45,28 @@ function convertValues() {
 }
 
 function changeCurrency() {
-    const currencyName = document.getElementById("currency-name")
+    const currencyName = document.getElementById("currency-Name")
+    const currencyImage = document.querySelector("#currency-img")
 
-
-
-    if (currencySelect.value == "dolar"){
-        currencyName.innerHTML = "Dolar"
-    }
-
-    if (currencySelect.value == "euro"){
-        currencyName.innerHTML = "Euro"
-    }
-
-    if (currencySelect.value == "libra"){
-        currencyName.innerHTML = "Libra"
-    }
-
-
+if(currencySelect.value == "dolar"){
+    currencyName.innerHTML = "Dólar Americano"
 
 }
 
 
-currencySelect.addEventListener("change", changeCurrency)
+if(currencySelect.value == "euro"){
+    currencyName.innerHTML = "Euro"
+}
+    
+if(currencySelect.value == "libra"){
+    currencyName.innerHTML = "Libra"
+}
+
+convertValues()
+
+}
+
+
+
+currencySelect.addEventListener("change",changeCurrency)
 convertButton.addEventListener("click", convertValues)

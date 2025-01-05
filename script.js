@@ -50,16 +50,18 @@ function changeCurrency() {
 
 if(currencySelect.value == "dolar"){
     currencyName.innerHTML = "Dólar Americano"
-
+    currencyImage.src="./assets/estados.unidos.png"
 }
 
 
 if(currencySelect.value == "euro"){
     currencyName.innerHTML = "Euro"
+    currencyImage.src="./assets/euro.png"
 }
     
 if(currencySelect.value == "libra"){
     currencyName.innerHTML = "Libra"
+    currencyImage.src="./assets/libra.png"
 }
 
 convertValues()
